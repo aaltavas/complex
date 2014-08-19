@@ -5,7 +5,7 @@ describe('Counter object tests', function() {
 	var counter;
 
 	beforeEach(function() {
-		counter = new Counter('A test counter');
+		counter = new Counter();
 	});
 
 	describe('creation and incrementation', function () {
